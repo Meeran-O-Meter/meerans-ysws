@@ -1,4 +1,4 @@
-# meerans-ysws
+# MEERAN'S YSWS
 _Sigh. If only you could earn hours in a YSWS as easily and quickly as pressing a button..._
 
 ## Welcome to.. Meeran's YSWS!!!
