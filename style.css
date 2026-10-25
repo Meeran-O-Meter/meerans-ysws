@@ -1,0 +1,91 @@
+body{
+    color: #E5A93C;
+    background-color: #0D0D0D;
+    font-family: 'Din Condensed';
+    padding-top: 3%;
+}
+
+@font-face {
+    font-family: 'Din Condensed';
+    src: url(./din-condensed-regular.ttf);
+}
+
+
+.home-container{
+    width: 90%;
+    margin: auto;
+}
+
+.home-title{
+    text-align: center;
+    font-size: 3rem;
+}
+
+.intro-containers{
+    margin: auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    height: fit-content;
+    align-items: stretch;
+}
+.container-intro{
+    border: solid #E5A93C 2px;
+    padding: 1rem 1rem;
+    flex: 1;
+    text-align: center;
+}
+
+.container-title{
+    align-self: center;
+    text-decoration: underline;
+    font-size: 1.7rem;
+}
+
+.container-description{
+    justify-self: center;
+    color: #e0dfdf;
+    font-size: 1.5rem;
+    width: 90%;
+}
+
+.button-container{
+    width: 30%;
+    min-width: 150px;
+    margin: auto;
+    margin-top: 2rem;
+}
+
+.lock-in{
+    background-color: #E5A93C;
+    border-radius: 16px;
+    border: none;
+    font-size: 2rem;
+    color: #ffffff;
+    font-family: 'Din Condensed';
+    width: 100%;
+    margin: auto;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    padding: 1rem 0.2rem;
+    box-shadow: 0 0.6rem 0 #BC831A;
+}
+
+.lock-in:active{
+    border: none;
+    box-shadow: none;
+    transform: translateY(0.6rem);
+}
+
+.lock-in:hover{
+    filter: brightness(1.1);
+}
+
+.button-description{
+    text-align: center;
+    color: #999999;
+    margin-top: 1.3rem;
+    font-size: 1.4rem;
+}
